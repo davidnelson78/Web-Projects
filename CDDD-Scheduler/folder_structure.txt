@@ -1,0 +1,75 @@
+cdcc-scheduler 
+   |   
+   +----css
+   |       sb-admin-2.css	   
+   |       sb-admin-2.min.css	  
+   |    
+   +----js
+   |       datatables.js	   
+   |       sb-admin-2.js	   	   
+   |       sb-admin-2.min.js	   	   
+   |      
+   +----private
+   |   |   initialize.php 	   
+   |   | 	
+   |   +-----shared
+   |           login_functions.inc.php
+   |           logout.php
+   |           mysqli_connect.php
+   |           
+   +----public
+   |   |    dashboard.php
+   |   |    index.php
+   |   |   
+   |   +------admin
+   |   |        adminsecurity.php
+   |   |        employees.php
+   |   | 	         
+   |   +------customers
+   |   |        customers.php
+   |   |        edit.php
+   |   |        edithandle.php
+   |   |        new.php
+   |   |        newhandle.php
+   |   | 	          
+   |   +------reservations
+   |   |        cancel.php
+   |   |        cancelhandle.php
+   |   |        edit.php
+   |   |        edithandle.php
+   |   |        new.php
+   |   |        newhandle.php
+   |   |        reservations.php
+   |   | 	          
+   |   +------venues
+   |            venues.php   	         
+   |   	          
+   +---scss
+   |   +---navs          
+   |   +---utilities
+   |
+   +---vendor
+   +---bootstrap         
+   |   +---js
+   |   +---scss	
+   |	  +---mixins
+   |      +---utilities
+   |      +---vendor
+   |
+   +---datatables
+   |    
+   +---fontawesome-free
+   |   +---css
+   |   +---js
+   |   +---less
+   |   +---scss
+   |   +---sprites
+   |   +---svgs
+   |   |   +---brands
+   |   |   +---regular
+   |   |   +---solid
+   |   |
+   |   +---webfonts
+   |
+   +---jquery
+   +---jquery-easing
